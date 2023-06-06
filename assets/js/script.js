@@ -159,7 +159,7 @@
     });
 
     // Activate lightcase
-    $('a[data-rel^=lightcase]').lightcase();
+    // $('a[data-rel^=lightcase]').lightcase();
 
     // isotop active
     $('.popular-menu__grid').imagesLoaded(function() {
