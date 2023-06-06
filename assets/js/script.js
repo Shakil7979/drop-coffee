@@ -79,14 +79,14 @@
         $('.hamburger-trigger').removeClass('active');
     });
 
-    // cart info
-    $(".cart-trigger").on("click", function(e) {
-        e.preventDefault();
-        $(".cart-bar-wrapper").toggleClass("show");
-        $("body").addClass("on-side");
-        $('.overlay').addClass('active');
-        $(this).addClass('active');
-    });
+    // cart info ok
+    // $(".cart-trigger").on("click", function(e) {
+    //     e.preventDefault();
+    //     $(".cart-bar-wrapper").toggleClass("show");
+    //     $("body").addClass("on-side");
+    //     $('.overlay').addClass('active');
+    //     $(this).addClass('active');
+    // });
 
     $(".cart-bar__close > a").on("click", function(e) {
         e.preventDefault();
@@ -145,10 +145,10 @@
         responsiveClass: true,
     });
 
-    //  product popup
-    $('.view').on('click', function() {
-        $('.overlay, .product-popup-1').addClass('show-popup');
-    });
+    //  product popup ok
+    // $('.view').on('click', function() {
+    //     $('.overlay, .product-popup-1').addClass('show-popup');
+    // });
 
     $('.product-highlight__trigger').on('click', function() {
         $('.overlay, .popup-coffe-mechine').addClass('show-popup');
